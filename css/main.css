@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Havana;
+    src: url(../fonts/Havana-Regular.woff);
+}
+
+@font-face {
+    font-family: Noctrune;
+    src: url(../fonts/NoctruneSerif-Regular.woff);
+}
+
+.header{
+  display: flex;
+}
+
+.header{
+  border: solid black 10px;
+  background-color: #D9D8D6;
+}
+.logo{
+padding: 30px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.navbar li{
+  padding-left: 30px;
+}
+.navbar{
+  font-family: Havana;
+  font-size: 30px;
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: dotted 10px black;
+}
+.text{
+  padding: 40px;
+  font-family: Noctrune;
+  font-style: oblique;
+}
+
+.text h1{
+  font: 50px bold red;
+  font-family: Noctrune;
+}
+
+.photo{
+  margin: auto;
+  padding: 30px;
+}
+
+.photo img{
+  width: 700px;
+  margin: auto;
+}
